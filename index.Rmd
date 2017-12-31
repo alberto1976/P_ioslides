@@ -48,7 +48,7 @@ ggplot(data=iris, aes(x = Sepal.Width, y = Petal.Width, shape = Species, color =
 
 ## Mapa interactivo con Leaflet
 
-```{r out.width='100%', warning=FALSE,fig.height=6, eval=require('leaflet'), echo=FALSE}
+```{r out.width='100%', warning=FALSE,fig.height=5, eval=require('leaflet'), echo=FALSE}
 library(leaflet)
 leaflet() %>% addTiles() %>% setView(-74.0841, 4.63858, zoom = 16)
 ```
