@@ -39,3 +39,11 @@ summary(cars)
 plot(pressure)
 ```
 
+## Gráfico con Ggplot2
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(ggplot2)
+ggplot(data=iris, aes(x = Sepal.Width, y = Petal.Width, shape = Species, color = Species)) + geom_point(size = 4)
+```
+
+
