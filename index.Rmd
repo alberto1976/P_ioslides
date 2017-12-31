@@ -20,6 +20,13 @@ When you click the **Knit** button a document will be generated that includes bo
 - Bullet 2
 - Bullet 3
 
+
+## Puntos incrementales
+
+* Punto 1
+* Punto 2
+* Punto 3
+
 ## Slide with R Output
 
 ```{r cars, echo = TRUE}
